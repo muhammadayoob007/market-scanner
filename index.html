@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Global Heatmap & Scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Live Ticker Tape -->
+    <div id="ticker-container"></div>
+
+    <main class="dashboard">
+        <!-- Left Panel: Heatmaps -->
+        <div class="left-panel">
+            <div class="card heatmap-section">
+                <div id="tradingview-stock-heatmap"></div>
+            </div>
+            <div class="card heatmap-section">
+                <div id="tradingview-crypto-heatmap"></div>
+            </div>
+        </div>
+
+        <!-- Right Panel: Advanced Chart -->
+        <div class="card chart-section">
+            <div id="tradingview-chart"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
